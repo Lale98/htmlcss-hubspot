@@ -71,12 +71,21 @@ body {
     height: 10vh;
 }
 
+.w30 {
+    width: 30%;
+}
 .w40 {
     width: 40%;
 }
 
 .w50 {
     width: 50%;
+}
+.w70 {
+    width: 70%;
+}
+.w80 {
+    width: 80%;
 }
 
 
@@ -86,6 +95,7 @@ button {
     border: none;
 }
 .btn {
+    cursor: pointer;
     padding: 10px;
     border-radius: 5px;
 }
@@ -142,3 +152,79 @@ header nav {
     font-size: 16px;
     margin: 40px 0;
 }
+
+
+/* main */
+main {
+    background-color: #F4F9FD;
+}
+.info {
+    text-align: center;
+}
+
+.info>img {
+    height: 200px;
+    margin-top: 50px;
+}
+
+.info h2 {
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.info p {
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.feature {
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feature img {
+    height: 120px;
+    margin: 30px auto;
+    display: block;
+    
+}
+
+.feature-left {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.feature-right h3:first-child {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.feature-right p {
+    line-height: 30px;
+}
+.feature-right h3:nth-child(3) {
+    display: inline-block;
+    font-size: 22px;
+    margin: 30px 0;
+}
+.feature-right hr {
+    display: inline-block;
+    width: 65%;
+    margin-left: 30px;
+    transform: translate(0,-50%);
+    border: 1px solid grey;
+}
+.feature-right ul {
+    display: block;
+}
+.feature-right li {
+    margin-left: 0;
+    margin-right: 25px;
+    margin-bottom: 65px;
+}
+
+.fa-check-circle {
+    margin-right: 15px;
+    color: #FE775A;
+}
+
