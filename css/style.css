@@ -264,3 +264,41 @@ main {
 .vertical-box h3 {
     font-size: 28px;
 }
+
+#skill {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    background-image: linear-gradient(to right, #00A5BC , #00BCA5);
+}
+#skill h3 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+.text-skill p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.image-info {
+    width: 25%;
+    padding: 30px 0;
+}
+.border-rightbottom {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.border-bottom {
+    border-bottom: 1px solid white;
+}
+.border-right{
+    border-right: 1px solid white;
+}
+.image-info p {
+    font-size: 16px;
+}
+
+.row2 {
+    padding-bottom: 80px;
+}
