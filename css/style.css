@@ -73,15 +73,20 @@ ul {
     height: 10vh;
 }
 
+.w20 {
+    width: 20%;
+}
 .w30 {
     width: 30%;
 }
 .w40 {
     width: 40%;
 }
-
 .w50 {
     width: 50%;
+}
+.w60 {
+    width: 60%;
 }
 .w70 {
     width: 70%;
@@ -113,6 +118,11 @@ button {
     color: #FE775A;
     background-color: white;
     border: 1px solid #FE775A;
+}
+.btn-footer {
+    color: #32495b;
+    background-color: white;
+    border: 1px solid #32495b;
 }
 
 
@@ -301,4 +311,81 @@ main {
 
 .row2 {
     padding-bottom: 80px;
+}
+
+.sponsor {
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.sponsor h2 {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.sponsor p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.sponsor-right {
+    text-align: right;
+}
+.sponsor-right img {
+    width: 140px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.line {
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.getstarted {
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+.getstarted h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.getstarted p {
+    line-height: 30px;
+}
+.getstarted button {
+    margin: 50px 0;
+}
+.getstarted p:last-child {
+    font-size: 16px;
+}
+.getstarted img {
+    width: 50%;
+}
+.getstarted-right {
+    text-align: right;
+}
+
+
+/* footer */
+footer {
+    color: #cbd6e2;
+    background-color: #32495b;
+    height: 500px;
+}
+footer h4 {
+    font-size: 18px;
+    margin: 40px 0;
+    color: white;
+}
+footer li {
+    font-size: 18px;
+    margin: 20px 0;
+}
+footer button {
+    font-size: 18px;
+}
+
+.credits {
+    width: 25%;
+}
+
+.icons i {
+    margin: 20px 12px;
 }
