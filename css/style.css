@@ -367,7 +367,6 @@ main {
 footer {
     color: #cbd6e2;
     background-color: #32495b;
-    height: 500px;
 }
 footer h4 {
     font-size: 18px;
@@ -388,4 +387,19 @@ footer button {
 
 .icons i {
     margin: 20px 12px;
+}
+
+.languages {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.copyright {
+    padding: 50px 0;
+}
+.copyright-left {
+    text-align: left;
+}
+.copyright-right {
+    text-align: right;
 }
