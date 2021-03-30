@@ -18,7 +18,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    line-height: 10vh;
+    line-height: 8vh;
     z-index: 3;
     background-color: #F4F9FD;
 }
@@ -68,9 +68,9 @@ ul {
     color: #00a5be;
 }
 
-.height10vh {
-    line-height: 10vh;
-    height: 10vh;
+.height8vh {
+    line-height: 8vh;
+    height: 8vh;
 }
 
 .w20 {
@@ -129,12 +129,12 @@ button {
 
 /* header */
 header nav {
-    margin-top: 10vh;
+    margin-top: 8vh;
 }
 
 .jumbotron {
     position: relative;
-    height: 750px;
+    height: 695px;
     background-image: url('../img/jumbotron.png');
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -153,11 +153,12 @@ header nav {
 }
 
 .jumbotron h1 {
-    font-size: 60px;
-    padding-top: 80px;
+    font-size: 50px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 .jumbotron p {
+    font-size: 18px;
     line-height: 1.5em;
 }
 .jumbotron button {
